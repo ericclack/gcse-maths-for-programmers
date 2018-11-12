@@ -16,9 +16,10 @@ So that you get the most out of this ebook, we recommend that you:
 
 ## Contents:
 
-Read the first chapter...
+Read the first few chapters...
 
 1. [Fractions](/fractions/index.md)
+1. [Sets](/sets/index.md)
 
 ----
 
