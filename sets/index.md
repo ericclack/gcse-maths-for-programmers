@@ -52,6 +52,6 @@ the user has input.
 ## Model answers
 
 * JavaScript
-* [Python](answers/eric/python/sets1.py)
+* [Python](answers/eric/sets1.py)
 
 
