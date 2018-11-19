@@ -20,6 +20,13 @@ def intersection(set1, set2):
             newset.append(a)
     return newset
 
+def complement(aset, universal):
+    newset = []
+    for a in universal:
+        if a not in aset:
+            newset.append(a)
+    return newset
+
 
 # - - -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 
@@ -31,12 +38,19 @@ print()
 print("- " * 30)
 print("Set 1: ", set1)
 print("Set 2: ", set2)
+universal = union(set1, set2)
 
 op = None
 while op != "q":
     print()
     print("What operation to perform on set1 and set2?")
-    op = input("I = Intersection, U = Union, Q = Quit  ").lower()
+    op = input("C = Complement, I = Intersection, U = Union, Q = Quit  ").lower()
+    if op == "c":
+        s = int(input("Which set, 1 or 2? "))
+        if s == 1:
+            print(complement(set1, universal))
+        elif s == 2:
+            print(complement(set2, universal))
     if op == "i":
         print(intersection(set1, set2))
     elif op == "u":
