@@ -42,10 +42,14 @@ Now enable the user to generate the union of two sets. Make sure you remove any 
 
 ## Programming Task 2
 
-Add set intersection for two sets, then three.
+Add set intersection for two sets. 
 
 Add complement, first defining the universal set to be everything in all sets
 the user has input.
+
+## Programming Task 3
+
+Make operations work for more than two sets and allow the user to choose which sets to apply operations to.
 
 ----
 
