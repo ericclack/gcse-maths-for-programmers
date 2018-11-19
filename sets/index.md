@@ -19,7 +19,7 @@ P ⋃ G = { frog, newt, snail, fish, dragonfly,
           bird, butterfly }
 
 # What doesn't live in the pond? (set complement)
-'P = { bird, butterfly, human, dog, cat }
+P' = { bird, butterfly, human, dog, cat }
 
 # What lives only in the pond and not in the garden?
 ...hmmm, that's a bit more tricky...
