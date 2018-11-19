@@ -19,7 +19,7 @@ P ⋃ G = { frog, newt, snail, fish, dragonfly,
           bird, butterfly }
 
 # What doesn't live in the pond? (set complement)
-'P = { bird, butterfly, human, dog, cat }
+P' = { bird, butterfly, human, dog, cat }
 
 # What lives only in the pond and not in the garden?
 ...hmmm, that's a bit more tricky...
@@ -42,10 +42,14 @@ Now enable the user to generate the union of two sets. Make sure you remove any 
 
 ## Programming Task 2
 
-Add set intersection for two sets, then three.
+Add set intersection for two sets. 
 
 Add complement, first defining the universal set to be everything in all sets
 the user has input.
+
+## Programming Task 3
+
+Make operations work for more than two sets and allow the user to choose which sets to apply operations to.
 
 ----
 
