@@ -54,13 +54,13 @@ What's the probability of rolling a six with a single die? How does the experime
 
 What's the probability of rolling a pair with two dice?
 
-What about a pair with three dice?
+What about a pair with three dice, or more?
 
 ----
 
 ## Model answers
 
 * JavaScript
-* [Python](answers/eric/probability1.py)
+* [Python](answers/eric/)
 
 
