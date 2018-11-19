@@ -20,6 +20,7 @@ Read the first few chapters...
 
 1. [Fractions](/fractions/index.md)
 1. [Sets](/sets/index.md)
+1. [Probability](/probability/index.md)
 
 ----
 
