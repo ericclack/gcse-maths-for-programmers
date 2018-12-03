@@ -6,6 +6,7 @@ print("\nLooking for pairs with at least two dice.")
 experiments = int(input("How many rolls of the dice? "))
 dice = int(input("How many dice? (at least two) "))
 assert dice >= 2, "You need at least two dice!"
+debug = (input("List pairs as they are found? [y/n] ").lower() == "y")
 
 def dice_roll(): return random.choice([1,2,3,4,5,6])
 
@@ -22,7 +23,7 @@ successes = 0
 for i in range(experiments):
     rolls = [dice_roll() for d in range(dice)]
     if is_pair_in_list(rolls):
-        print("Pair in %s" % rolls)
+        if debug: print("Pair in %s" % rolls)
         successes += 1
 
 print("After %s experiments, probability of event is %s" % (experiments, successes/experiments))

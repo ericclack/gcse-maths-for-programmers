@@ -52,9 +52,15 @@ What's the probability of rolling a six with a single die? How does the experime
 
 ## Programming Task 2
 
-What's the probability of rolling a pair with two dice?
+a) What's the probability of rolling a pair with two dice?
 
-What about a pair with three dice, or more?
+b) What about a pair with three dice, or more?
+
+## Back to theoretical probability
+
+With your experimental data from 2a and 2b above, can you determine the theoretical probability for each experiment?
+
+
 
 ----
 
