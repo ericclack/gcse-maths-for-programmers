@@ -10,3 +10,8 @@ Output a frequency table for each bucket.
 
 What's the average?
 
+## Task 2
+
+Change your function so that you get a Normal distributon of heights.
+
+What's the standard deviation of your data?
