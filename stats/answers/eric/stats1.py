@@ -13,8 +13,14 @@ def random_height():
 def height_to_class(h):
     """Which class, 0 to CLASSES-1, is this datum in?"""
     frac = (h-MIN) / (MAX-MIN)
-    
     return int(frac * CLASSES)
+
+def class_range(c):
+    range = MAX-MIN
+    frac = c/CLASSES
+    lower = int(MIN + frac*range)
+    upper = int(MIN + frac*range + 1/CLASSES*range - 1)
+    return ("%s-%s" % (lower, upper))
 
 # - - -  -  -  -  -  -  -  -  -  -  -  -  -  - 
 
@@ -28,4 +34,5 @@ for i in range(N):
     height_classes[c] += 1
 
 # Print out:
-print(height_classes)
+for i,f in enumerate(height_classes):
+    print(class_range(i), ":", f)
