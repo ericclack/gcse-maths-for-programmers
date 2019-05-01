@@ -22,7 +22,7 @@ Read the first few chapters...
 1. [Sets](/sets/index.md)
 1. [Probability](/probability/index.md)
 1. [Statistics](/stats/index.md)
-
+1. [Geometry - Angles](/geom/angles.md)
 ----
 
 More coming soon...
