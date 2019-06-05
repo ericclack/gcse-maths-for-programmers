@@ -23,6 +23,8 @@ Read the first few chapters...
 1. [Probability](/probability/index.md)
 1. [Statistics](/stats/index.md)
 1. [Geometry - Angles](/geom/angles.md)
+1. [Factors](/factors/index.md)
+
 ----
 
 More coming soon...
