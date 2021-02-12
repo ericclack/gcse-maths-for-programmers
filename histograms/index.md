@@ -51,3 +51,25 @@ def print_histogram(h):
     for i,v in enumerate(h):
         print(i, ":", "*" * v)
 ```
+
+## Types of distributions
+
+### One dice
+
+So, as you increase the number of rolls what happens? And as you reduce the
+number of rolls? Why is this? 
+
+What kind of distribution is this? 
+
+### Two dice
+
+Let's now use two dice and add them together, what does this do to the
+distribution?
+
+You'll need to change the length of your histogram array -- to what? 
+
+And you'll need to change the line `r = roll()` to `r = roll() + roll()`.
+
+### Three dice
+
+What happens with 3 dice, or 6 or more? 
