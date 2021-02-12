@@ -48,10 +48,10 @@ number of times we saw that result.
 Here's how to do it: 
 
 ```
-def print_frequency_tab(h):
+def print_frequency_tab(f):
     print("| Value | Freq | Graph")
     print("|-------|------|------")
-    for i,v in enumerate(h):
+    for i,v in enumerate(f):
         print("| {:>5} | {:>4} | {}".format(i, v, "*" * v))
 ```
 
@@ -62,12 +62,13 @@ means use a width of 5 characters for the value and right align it.
 
 Do you remember the different measures of a set of data? 
 
-* Mode
-* Range
-* Median
-* Mean
+* Mode -- this is the most common item
+* Range -- this is the difference between the highest and lowest value, watch out for rows in your table with zero frequency
+* Median -- this is the middle value of all the data
+* Mean -- this is the sum of all the values divided by the number of values
 
-How would we determine these from the data table? 
+How would we determine these from the data table? Which can you either see
+or easily calculate? 
 
 ## Types of distributions
 
